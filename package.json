@@ -1,6 +1,6 @@
 {
-  "name": "@snackexchange/snack-kit",
-  "version": "1.0.3",
+  "name": "snack-kit",
+  "version": "1.0.4",
   "description": "Styles and components for use in *.snacks websites",
   "module": "index.mjs",
   "scripts": {

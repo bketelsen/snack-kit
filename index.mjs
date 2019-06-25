@@ -1,4 +1,3 @@
-export { default as Hero } from './components/Hero.svelte';
 export { default as Icon } from './components/Icon.svelte';
 export { default as Icons } from './components/Icons.svelte';
 export { default as Nav } from './components/Nav.svelte';
