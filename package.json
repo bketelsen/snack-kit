@@ -1,0 +1,34 @@
+{
+  "name": "@snackexchange/snack-kit",
+  "version": "1.0.3",
+  "description": "Styles and components for use in *.snacks websites",
+  "module": "index.mjs",
+  "scripts": {
+    "testunit": "mocha -r esm test/unit/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bketelsen/snack-kit.git"
+  },
+  "author": "Brian Ketelsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bketelsen/snack-kit/issues"
+  },
+  "homepage": "https://github.com/bketelsen/snack-kit#readme",
+  "devDependencies": {
+    "esm": "^3.2.22",
+    "mocha": "^6.1.4",
+    "svelte": "^3.5.4"
+  },
+  "dependencies": {
+    "@sindresorhus/slugify": "^0.9.1",
+    "golden-fleece": "^1.0.9"
+  },
+  "files": [
+    "index.mjs",
+    "base.css",
+    "components",
+    "utils"
+  ]
+}
