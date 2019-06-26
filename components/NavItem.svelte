@@ -6,9 +6,16 @@
 
 	const current = getContext('nav');
 </script>
+<style>
 
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+}
+</style>
 {#if external}
-	<li><a href={external}><slot></slot></a></li>
+	<li class="nav-link"><a href={external}><slot></slot></a></li>
 {:else}
-	<li class:active="{$current === segment}"><a rel="prefetch" href={segment}><slot></slot></a></li>
+	<li class="nav-link" class:active="{$current === segment}"><a rel="prefetch" href={segment}><slot></slot></a></li>
 {/if}
